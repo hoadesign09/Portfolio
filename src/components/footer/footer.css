@@ -1,0 +1,62 @@
+.footer{
+    font-family: 'Roboto', sans-serif;
+}
+.footer-newsletter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.new-lt-ti{
+    font-weight: 700;
+    font-size: 32px;
+}
+.sent-mail{
+    margin: 100px 0;
+}
+.form-mail{
+    padding-top: 30px
+}
+input[type=email] {
+    height: 40px;
+    width: 300px;
+    border: 1px solid #F58012;
+    padding: 0 15px;
+    font-size: 16px;
+}
+input[type=submit]{
+    height: 40px;
+    width: 80px;
+    border: 1px solid #F58012;
+    margin-left: 20px;
+    font-size: 16px;
+}
+input[type=submit]:hover{
+    background-color: #F58012;
+    cursor: pointer;
+}
+.footer-menu{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+a{
+    text-decoration: none;
+}
+#ft-menu{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.social{
+    margin-right: 5px;
+}
+.title-footer{
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+}
+.copy-right{
+    padding-top: 25px;
+    text-align: center;
+}
